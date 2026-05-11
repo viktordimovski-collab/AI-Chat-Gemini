@@ -1,19 +1,29 @@
 # AI-Powered Text Intelligence Tool 🤖
 
-Developed by **Viktor Dimovski**, a Software Engineer based in North Macedonia.
+Developed by **Viktor Dimovski**, a Software Engineer specializing in AI integration and automation.
 
-## 📝 Description
-This project utilizes the **Google Gemini AI API** to perform advanced text analysis. It helps users process large amounts of data quickly and accurately.
+## 📝 Project Overview
+This tool leverages the **Google Gemini Pro API** to transform raw text into actionable intelligence. Designed with efficiency in mind, it automates the most time-consuming text-processing tasks using state-of-the-art LLM capabilities.
 
-### Core Features:
-- **Automated Summarization:** Instantly condense long texts into key points.
-- **Key Insight Extraction:** Identify the most important information automatically.
-- **Multilingual Translation:** Seamlessly translate content between different languages.
+### 🌟 Core Features
+- **Automated Summarization:** Instantly condense long documents or articles into concise, high-impact key points.
+- **Key Insight Extraction:** Uses NLP logic to identify and extract the most important information, entities, and action items.
+- **Multilingual Support:** High-fidelity translation and analysis across multiple languages, including Balkan regional languages.
+- **Efficient Processing:** Optimized for handling large text datasets with minimal latency.
 
-## 🛠 Technologies Used
-- **Python 3.13**
-- **Google Gemini API**
-- **Git** for Version Control
+## 🛠 Tech Stack
+- **Language:** Python 3.13
+- **AI Integration:** Google Gemini API (Generative AI)
+- **Development Tools:** Git, Environment Variable Security (`python-dotenv`)
 
----
-*Built with passion for AI development.*
+## 🚀 Getting Started
+
+### Prerequisites
+- Python 3.13+
+- A Google Cloud API Key for Gemini
+
+### Quick Setup
+1. **Clone & Navigate:**
+   ```bash
+   git clone [https://github.com/viktordimovski-collab/AI-Smart-App.git](https://github.com/viktordimovski-collab/AI-Smart-App.git)
+   cd AI-Smart-App
