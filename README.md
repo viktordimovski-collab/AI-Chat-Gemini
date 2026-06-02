@@ -1,29 +1,38 @@
-# AI-Powered Text Intelligence Tool 🤖
+# Gemini AI Chatbot 🤖
 
-Developed by **Viktor Dimovski**, a Software Engineer specializing in AI integration and automation.
+**Python Chatbot Powered by Google Gemini**
 
-## 📝 Project Overview
-This tool leverages the **Google Gemini Pro API** to transform raw text into actionable intelligence. Designed with efficiency in mind, it automates the most time-consuming text-processing tasks using state-of-the-art LLM capabilities.
+A clean and interactive AI chatbot built with Python that demonstrates integration with Google's Gemini AI model.
 
-### 🌟 Core Features
-- **Automated Summarization:** Instantly condense long documents or articles into concise, high-impact key points.
-- **Key Insight Extraction:** Uses NLP logic to identify and extract the most important information, entities, and action items.
-- **Multilingual Support:** High-fidelity translation and analysis across multiple languages, including Balkan regional languages.
-- **Efficient Processing:** Optimized for handling large text datasets with minimal latency.
+## ✨ Features
+
+- Real-time conversation with Gemini AI
+- Conversation history support
+- Clean, well-structured code
+- Easy to extend and modify
 
 ## 🛠 Tech Stack
-- **Language:** Python 3.13
-- **AI Integration:** Google Gemini API (Generative AI)
-- **Development Tools:** Git, Environment Variable Security (`python-dotenv`)
 
-## 🚀 Getting Started
+- **Python 3.10+**
+- Google Generative AI (`google-generativeai`)
+- `python-dotenv` for environment variables
+
+## 🚀 How to Run
 
 ### Prerequisites
-- Python 3.13+
-- A Google Cloud API Key for Gemini
+- Python 3.10 or higher
+- Gemini API Key
 
-### Quick Setup
-1. **Clone & Navigate:**
-   ```bash
-   git clone [https://github.com/viktordimovski-collab/AI-Smart-App.git](https://github.com/viktordimovski-collab/AI-Smart-App.git)
-   cd AI-Smart-App
+### Installation
+
+```bash
+git clone https://github.com/viktordimovski-collab/AI-Chat-Gemini.git
+cd AI-Chat-Gemini
+
+pip install -r requirements.txt
+
+# Copy environment file
+cp .env.example .env
+# Add your GEMINI_API_KEY
+
+python main.py
